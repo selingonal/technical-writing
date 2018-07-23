@@ -59,6 +59,44 @@ _italic_
 ```
 Note: the character used for the monospace attribute is called a "back quote". It is located unter the tilde (~) key on the top left corner of your keyboard. Please do not confuse this with a single quotation mark.  
 
+You could also use 3 of these symbols in succession and surround a body of text to allow for multiple lines of monospace font. This is typically used for inserting lines of code into your documentation. 
+
 ## Lists, Links, and images
 
-Markdown provides a simple way to create lists. 
+Markdown provides a simple way to create lists.  
+A bulleted list simply needs an asterisk at the beginning of each item of the list, it would display as:
+* Item 1 
+* Item 2
+* Item 3
+but under the hood it would be: 
+```
+* Item 1 
+* Item 2
+* Item 3
+```
+
+Similarly, a numbered list would display as: 
+1. Item 1 
+2. Item 2
+3. Item 3
+but would look like: 
+```
+1. Item 1 
+2. Item 2
+3. Item 3
+```
+
+---
+
+Horizontal Rules like the one seen directly above can be created with 3 successive hyphens:`---`
+
+A **Link** can be inserted as such: 
+[Click Here](http://google.com).
+
+```
+[Click Here](http://google.com).
+```
+An **Image** can be inserted like so:
+```
+![Image](Image_icon.png)
+```
