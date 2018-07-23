@@ -68,6 +68,7 @@ A bulleted list simply needs an asterisk at the beginning of each item of the li
 * Item 1 
 * Item 2
 * Item 3  
+
 but under the hood it would be: 
 ```
 * Item 1 
@@ -79,6 +80,7 @@ Similarly, a numbered list would display as:
 1. Item 1 
 2. Item 2
 3. Item 3  
+
 but would look like: 
 ```
 1. Item 1 
