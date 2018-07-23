@@ -67,7 +67,7 @@ Markdown provides a simple way to create lists.
 A bulleted list simply needs an asterisk at the beginning of each item of the list, it would display as:
 * Item 1 
 * Item 2
-* Item 3
+* Item 3  
 but under the hood it would be: 
 ```
 * Item 1 
@@ -78,7 +78,7 @@ but under the hood it would be:
 Similarly, a numbered list would display as: 
 1. Item 1 
 2. Item 2
-3. Item 3
+3. Item 3  
 but would look like: 
 ```
 1. Item 1 
@@ -88,7 +88,7 @@ but would look like:
 
 ---
 
-Horizontal Rules like the one seen directly above can be created with 3 successive hyphens:`---`
+Horizontal Rules like the one seen directly above can be created with 3 successive hyphens: `---`
 
 A **Link** can be inserted as such: 
 [Click Here](http://google.com).
